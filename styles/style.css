@@ -50,7 +50,7 @@
   line-height: 20px;
   font-style: normal;
 }
-.main_content{
+.main_content {
   position: relative;
 }
 .overlay_dark {
@@ -63,7 +63,7 @@
   opacity: 0.5;
   z-index: 1;
 }
-.cover_lotusfield{
+.cover_lotusfield {
   position: relative;
   padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
@@ -159,7 +159,7 @@
 }
 .film_dropout_lot, 
 .boring_day_lot,
-.easy_picture_lot{
+.easy_picture_lot {
   position: relative;
   display: flex;
   flex-direction: column;
