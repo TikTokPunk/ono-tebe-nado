@@ -1,1 +1,308 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  height: 293px;
+  padding: 70px 50px 96px;
+}
+
+.logo_header_block {
+  display: block;
+  justify-self: center;
+}
+
+.logo_header {
+  width: 140px;
+  height: 148px;
+  justify-self: center;
+  align-self: center;
+}
+.navigation_header {
+  display: flex;
+}
+.navigation_content {
+  display: flex;
+  align-items: center;
+  width: 392px;
+  height: 22px;
+  padding-left: 0;
+  color: black;
+  gap: 32px;
+  font-size: 18px;
+  line-height: 21.13px;
+  white-space: nowrap;
+  list-style: circle;
+}
+.item_header_nav_nodot {
+  list-style: none;
+}
+.underline_item {
+  text-decoration: underline;
+}
+.header_address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 184px;
+  max-width: 240px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  font-style: normal;
+}
+.main_content{
+  position: relative;
+}
+.overlay_dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.cover_lotusfield{
+  position: relative;
+  padding: 165px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 757px;
+  z-index: 0;
+}
+.overlay_text_title {
+  position: relative;
+  width: 1000px;
+  height: 385px;
+  color: white;
+  font-family: "Raleway-Bold", sans-serif;
+  z-index: 3;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.first_word_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 30px;
+}
+.second_word_overlay {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 30px;
+}
+.correction_letter-spacing {
+  letter-spacing: 10px;
+}
+.third_word_overlay {
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  letter-spacing: 30px;
+}
+.cover_text_plus_button {
+  position: relative;
+  padding-top: 130px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  height: 51px;
+  width: 1000px;
+}
+.lower_text_lotusfield {
+  position: relative;
+  z-index: 3;
+  width: 657px;
+  word-spacing: 20px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+
+}
+.gambling_button {
+  color: white;
+  position: relative;
+  z-index: 3;
+  height: 51px;
+  width: 261px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  background: transparent;
+  border-color: white;
+  border: 1px solid;
+}
+.main_lots {
+  margin-top: 107px;
+}
+.overlay_text_title_main {
+  padding-top: 180px;
+  padding-left: 64px;
+  position: relative;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  
+}
+.lots_containers {
+  display: grid;
+  height: 596px;
+  position: relative;
+  padding: 32px 24px 30px 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+.film_dropout_lot, 
+.boring_day_lot,
+.easy_picture_lot{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 596px;
+  width: 334px;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.film_dropout_lot__head,
+.boring_day_lot__head,
+.easy_picture_lot__head {
+  font-family: "Raleway-Bold", sans-serif;
+  margin: 48px 40px auto 40px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  z-index: 2;
+  color: white;
+}
+
+.film_dropout_lot__background,
+.boring_day_lot__background,
+.easy_picture_lot__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+}
+.text_in_lots {
+  margin: auto 40px 48px 40px;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 120%;
+  z-index: 2;
+  color: white;
+}
+.under_lots_continue {
+  margin-top: 5px;
+  line-height: 28px;
+  text-decoration: underline;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.about_whole {
+  margin-top: 85px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 72px;
+  height: 595px;
+  width: 1051px;
+  padding: 120px 24px 180px 24px;
+}
+.background_for_logo {
+  position: relative;
+  margin-left: 47px;
+  margin-top: 35px;
+  width: 240px;
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 120px;
+  background-color: black;
+}
+.logo-white_about {
+  position: absolute;
+  width: 148px;
+  height: 114px;
+  margin-left: 93.5px;
+  margin-top: 99px;
+  z-index: 3;
+}
+.about_head {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 100%;
+  height: 47px;
+  width: 297px;
+}
+.about_text_description {
+  margin-top: 140px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 693px;
+  height: 449px;
+  gap: 100px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 5px;
+}
+.footer_whole {
+  margin-top: 240px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+  width: 100%;
+  min-height: 180px;
+}
+.footer_address {
+  padding-top: 61px;
+  padding-left: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+}
+.nav_footer_container {
+  padding-top: 62px;
+  display: flex;
+  flex-direction: column;
+  width: 164px;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+.navigation_content__footer {
+  list-style-type: none;
+  align-items: center;
+  justify-items: center;
+}
+.links_footer {
+  position: relative;
+  display: flex;
+  gap: 48px;
+  padding-top: 60px;
+  padding-left: 170px;
+}
+.link_icon_footer {
+  position: relative;
+  height: 48px;
+  width: 48px;
+}
+
+
